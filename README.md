@@ -64,8 +64,8 @@ exit
 #### **(B) Copy CSV Files to Namenode**
 
 ```sh
-docker cp employees.csv namenode:/data/employee_data/  
-docker cp departments.csv namenode:/data/employee_data/  
+docker cp employees.csv namenode:/data/employee_data/employees.csv 
+docker cp departments.csv namenode:/data/employee_data/departments.csv
 ```
 
 #### **(C) Upload CSV Files to HDFS**
@@ -243,8 +243,8 @@ ls -l  # Verify output
 
 ## 📊 **Final Output**
 
-- **hql\_queries.hql** → Contains all SQL queries.
-- **hql\_output.txt** → Stores query execution results.
+- **hql_queries.hql** → Contains all SQL queries.
+- **hql_output.txt** → Stores query execution results.
 
 This README provides a **step-by-step guide** from **loading data to executing queries** in Hive. 🚀
 
